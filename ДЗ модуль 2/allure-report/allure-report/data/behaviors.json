@@ -1,0 +1,106 @@
+{
+  "features" : [ {
+    "title" : "РасчетВозрастаЧеловекаВМесяцах",
+    "statistic" : {
+      "total" : 4,
+      "passed" : 4,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "3b22eccf6b52753b",
+      "title" : "человек родился 01.09.2016",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "5d92ed5fe0e24d55",
+        "name" : "человек родился 01.09.2016",
+        "title" : "2016",
+        "time" : {
+          "start" : 63609086837282,
+          "stop" : 63609086838082,
+          "duration" : 800
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    }, {
+      "uid" : "24c9ff92227a3409",
+      "title" : "человек родился 01.08.2016, а текущая дата 31.08.2016",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "de5f40e63737c02b",
+        "name" : "человек родился 01.08.2016, а текущая дата 31.08.2016",
+        "title" : "2016",
+        "time" : {
+          "start" : 63609086838296,
+          "stop" : 63609086839096,
+          "duration" : 800
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    }, {
+      "uid" : "232503cc311b2c7c",
+      "title" : "человек родился 31.12.2015, а текущая дата 01.01.2016",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "d5977e2ac8d9df26",
+        "name" : "человек родился 31.12.2015, а текущая дата 01.01.2016",
+        "title" : "2016",
+        "time" : {
+          "start" : 63609086839325,
+          "stop" : 63609086840111,
+          "duration" : 786
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    }, {
+      "uid" : "78a0c3122185270f",
+      "title" : "человек родился 15.01.1975, а текущая дата 10.09.2016",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "bb56f245e48939a1",
+        "name" : "человек родился 15.01.1975, а текущая дата 10.09.2016",
+        "title" : "2016",
+        "time" : {
+          "start" : 63609086840357,
+          "stop" : 63609086841130,
+          "duration" : 773
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}
